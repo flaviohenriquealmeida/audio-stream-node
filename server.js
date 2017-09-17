@@ -18,7 +18,7 @@ app.get('/audio', async (req, res) => {
     
     // informações sobre o tipo do conteúdo e o tamanho do arquivo
     res.writeHead(200, {
-        'Content-Type': 'audio/mpeg',
+        'Content-Type': 'audio/ogg',
         'Content-Length': stat.size
     });
 
